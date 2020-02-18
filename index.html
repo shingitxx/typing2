@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Typing Game</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- jsが使いやすいようにidにしている -->
+  <p id="target">click to start</p>
+  <!-- スコアなどが入る部分
+        打った文字数やミスした文字数をいれる
+      数値の部分はspanタグで囲う -->
+  <p class="info">
+    Letter count: <span id="score">0</span>
+    <!-- ミスした文字数などの表示 -->
+    Miss count: <span id="miss">0</span>
+    <!-- 残り時間の表示 -->
+    Time left: <span id="timer">0.00</span>
+
+
+  </p>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
